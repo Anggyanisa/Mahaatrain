@@ -35,11 +35,97 @@
     <Spinner
         android:id="@+id/sberangkat"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:entries="@array/kota" />
 
     <Spinner
         android:id="@+id/spinner2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:entries="@array/kota" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Makanan" />
+
+    <CheckBox
+        android:id="@+id/ind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="indonesia" />
+
+    <CheckBox
+        android:id="@+id/west"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="America" />
+
+    <CheckBox
+        android:id="@+id/kra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Korea" />
+
+    <CheckBox
+        android:id="@+id/mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Timur Tengah" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas Kereta" />
+
+    <RadioButton
+        android:id="@+id/eco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="eco" />
+
+    <RadioButton
+        android:id="@+id/ecopre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="economy Premium" />
+
+    <RadioButton
+        android:id="@+id/buss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bussiness" />
+
+    <RadioButton
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIP" />
+
+    <Button
+        android:id="@+id/bok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+    <TextView
+        android:id="@+id/tvhasil1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hasil" />
+
+    <TextView
+        android:id="@+id/tvhasil2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hasil2" />
 
 </LinearLayout>
