@@ -74,7 +74,26 @@ public class MainActivity extends AppCompatActivity {
 
                 }
             }
-        });
 
-    }
-}
+            private boolean isValid() {
+                boolean valid = true;
+
+                String nama1 = etnama.getText().toString();
+                if (nama1.isEmpty()) {
+                    etnama.setError("Nama Belum Diisi");
+                    valid = false;
+                } else {
+                    etnama.setError(null);
+                }
+
+                String date1 = etdate.getText().toString();
+                if (date1.isEmpty()) {
+                    etdate.setError("Tanggal Berangkat Belum Diisi");
+                    valid = false;
+                } else {
+                    etdate.setError(null);
+                }
+
+                return valid;
+            }
+        }
